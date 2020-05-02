@@ -34,7 +34,7 @@ namespace HelloWorld
             Console.WriteLine("Harry Potter, Shadow and Bones, and so many more wonderful books fall in this catergory.");
             Console.WriteLine("Which book would you like to get?");
             var response = Console.ReadLine();
-            Console.WriteLine($"Okay! One copy of {response} coming right up.");
+            Console.WriteLine($"What a good choice. One copy of {response} coming right up.");
         }
 
         void TalkMythology()
@@ -42,7 +42,7 @@ namespace HelloWorld
             Console.WriteLine("Mythology is so good. This includes Percy Jackson, Magnus Chase, and so many more.");
             Console.WriteLine("Which book would you like to get?");
             var answer = Console.ReadLine();
-            Console.WriteLine($"Okay! One copy of {answer} coming right up.");
+            Console.WriteLine($"Ooh! I love that book. One copy of {answer} coming right up.");
         }
 
         void TalkNonfiction()
@@ -51,7 +51,7 @@ namespace HelloWorld
             Console.WriteLine("These books can teach you cool new facts, or tell you captivating true stories.");
             Console.WriteLine("What topic are you looking for?");
             var topic = Console.ReadLine();
-            Console.WriteLine($"Okay! One book about {topic} coming right up.");
+            Console.WriteLine($"Okay! That's a really interesting topic. One book about {topic} coming right up.");
         }
     }
 }
